@@ -1,0 +1,12 @@
+.search-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the input field to the right */
+    margin-right: 20px; /* Optional: Add space from the right edge */
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    width: 250px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
